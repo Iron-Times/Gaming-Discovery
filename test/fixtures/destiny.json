@@ -1,0 +1,76 @@
+{
+"code": 200,
+"headers": {
+"cache_control": "no-cache, must-revalidate",
+"content_type": "application/json",
+"date": "Fri, 26 Feb 2016 17:44:12 GMT",
+"server": "Mashape/5.0.6",
+"x_powered_by": "PHP/5.5.30",
+"content_length": "2028",
+"connection": "keep-alive"
+},
+"raw_body": "[{\"title\":\"Destiny\",\"score\":\"7.8\",\"publisher\":\"Activision\",\"short_description\":\"September 09, 2014 - ...comes Destiny. With an unprecedented variety of FPS gameplay, Destiny promises to deliver an incredible story set within a newly-imagined, always-connected...\",\"platforms\":{\"1\":\"Xbox One\",\"2\":\"PS4\",\"3\":\"Xbox 360\",\"4\":\"PS3\"},\"thumb\":\"http:\\/\\/assets2.ignimgs.com\\/2014\\/07\\/30\\/destinyxbone1jpg-8dda3b_160w.jpg\"},{\"title\":\"Shadow of Destiny\",\"score\":\"8.5\",\"publisher\":\"Konami\",\"short_description\":\"March 06, 2001 - Shadow of Destiny ! Travel through changing time periods in nine chapters and and use clues from the past to solve puzzles and change the dire destiny that...\",\"platforms\":{\"1\":\"PS2\",\"2\":\"PC\",\"3\":\"PSP\"},\"thumb\":\"http:\\/\\/ps2media.ign.com\\/ps2\\/image\\/object\\/014\\/014248\\/shadowdestiny_ps2box_usa_org_000boxart_160w.jpg\"},{\"title\":\"Destiny: The Taken King\",\"score\":\"9\",\"publisher\":\"Activision\",\"short_description\":\"September 15, 2015 - Destiny: The Taken King is the third expansion for the first-person shooter game Destiny, and by far the largest addition to the Destiny universe yet.\",\"platforms\":{\"1\":\"Xbox One\",\"2\":\"PS4\",\"3\":\"Xbox 360\",\"4\":\"PS3\"},\"thumb\":\"http:\\/\\/assets1.ignimgs.com\\/2015\\/08\\/05\\/destiny-the-taken-king-button-v2jpg-434f7c_160w.jpg\"},{\"title\":\"Destiny: House of Wolves\",\"score\":\"\",\"publisher\":\"Activision\",\"short_description\":\"May 19, 2015 - Destiny: House of Wolves is the second expansion for the first-person shooter game Destiny.\",\"platforms\":{\"1\":\"PS3\",\"2\":\"Xbox 360\",\"3\":\"PS4\",\"4\":\"Xbox One\"},\"thumb\":\"http:\\/\\/assets1.ignimgs.com\\/2015\\/04\\/13\\/destiny-house-of-wolves-buttonjpg-d12f18_160w.jpg\"},{\"title\":\"Fighters Destiny\",\"score\":\"8\",\"publisher\":\"Ocean\",\"short_description\":\"January 27, 1998 - FIGHTERS DESTINY. You can choose from more than 10 characters and enter the ring in the ultimate hand-to-hand competition. Rather than using a two-out-of-three...\",\"platforms\":{\"1\":\"N64\"},\"thumb\":\"http:\\/\\/n64media.ign.com\\/n64\\/image\\/object\\/002\\/002168\\/602042boxart_160w.jpg\"}]",
+"body": [
+{
+"title": "Destiny",
+"score": "7.8",
+"publisher": "Activision",
+"short_description": "September 09, 2014 - ...comes Destiny. With an unprecedented variety of FPS gameplay, Destiny promises to deliver an incredible story set within a newly-imagined, always-connected...",
+"platforms": {
+"1": "Xbox One",
+"2": "PS4",
+"3": "Xbox 360",
+"4": "PS3"
+},
+"thumb": "http://assets2.ignimgs.com/2014/07/30/destinyxbone1jpg-8dda3b_160w.jpg"
+},
+{
+"title": "Shadow of Destiny",
+"score": "8.5",
+"publisher": "Konami",
+"short_description": "March 06, 2001 - Shadow of Destiny ! Travel through changing time periods in nine chapters and and use clues from the past to solve puzzles and change the dire destiny that...",
+"platforms": {
+"1": "PS2",
+"2": "PC",
+"3": "PSP"
+},
+"thumb": "http://ps2media.ign.com/ps2/image/object/014/014248/shadowdestiny_ps2box_usa_org_000boxart_160w.jpg"
+},
+{
+"title": "Destiny: The Taken King",
+"score": "9",
+"publisher": "Activision",
+"short_description": "September 15, 2015 - Destiny: The Taken King is the third expansion for the first-person shooter game Destiny, and by far the largest addition to the Destiny universe yet.",
+"platforms": {
+"1": "Xbox One",
+"2": "PS4",
+"3": "Xbox 360",
+"4": "PS3"
+},
+"thumb": "http://assets1.ignimgs.com/2015/08/05/destiny-the-taken-king-button-v2jpg-434f7c_160w.jpg"
+},
+{
+"title": "Destiny: House of Wolves",
+"score": "",
+"publisher": "Activision",
+"short_description": "May 19, 2015 - Destiny: House of Wolves is the second expansion for the first-person shooter game Destiny.",
+"platforms": {
+"1": "PS3",
+"2": "Xbox 360",
+"3": "PS4",
+"4": "Xbox One"
+},
+"thumb": "http://assets1.ignimgs.com/2015/04/13/destiny-house-of-wolves-buttonjpg-d12f18_160w.jpg"
+},
+{
+"title": "Fighters Destiny",
+"score": "8",
+"publisher": "Ocean",
+"short_description": "January 27, 1998 - FIGHTERS DESTINY. You can choose from more than 10 characters and enter the ring in the ultimate hand-to-hand competition. Rather than using a two-out-of-three...",
+"platforms": {
+"1": "N64"
+},
+"thumb": "http://n64media.ign.com/n64/image/object/002/002168/602042boxart_160w.jpg"
+}
+]
+}
