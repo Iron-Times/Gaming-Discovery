@@ -1,9 +1,9 @@
 require 'kappa'
 class TwitchController < ApplicationController
   def streams
+    v = Twitch.streams.find(:game => params["game"])
     streamers = {}
     array = []
-    v = Twitch.streams.find(:game => params["game"])
     v.each do |stream|
       next if stream.viewer_count < 5
         array << stream
@@ -12,7 +12,8 @@ class TwitchController < ApplicationController
       end
         array.each_with_index do |stream, i|
           break if i == 10
-          streamers[stream.user] = stream.url
+          streamers[stream.viewer_count] = stream.url
+          streamers
         end
     render json: streamers
   end
