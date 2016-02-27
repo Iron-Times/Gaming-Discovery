@@ -6,8 +6,14 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module NewsApi
+module GamingDiscovery
   class Application < Rails::Application
+    Twitch.configure do |config|
+    config.client_id = ENV['TWITCH_KEY']
+    config.api = Twitch::V2
+  end
+
+  streams = Twitch.streams.featured(:limit => 10)
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
