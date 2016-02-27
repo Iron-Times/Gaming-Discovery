@@ -1,33 +1,9 @@
 Rails.application.routes.draw do
-  get 'twitch/channel'
 
-  get 'twitch/channels'
 
-  get 'twitch/game'
+  get 'twitch/streams'
 
-  get 'twitch/gamesuggestion'
-  get 'twitch/show'
-  get 'twitch/games'
-
-  get 'twitch/images'
-
-  get 'twitch/stream'
-
-  get 'twitch/streamsummary'
-
-  get 'twitch/streams' 
-
-  get 'twitch/team'
-
-  get 'twitch/teams'
-
-  get 'twitch/user'
-
-  get 'twitch/users'
-
-  get 'twitch/video'
-
-  get 'twitch/videos'
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
