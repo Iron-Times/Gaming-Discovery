@@ -1,10 +1,19 @@
 Rails.application.routes.draw do
+
+  get 'inquiry/index'
+
   get 'reviews/index'
   get 'reviews/show'
 
   get 'api/v1/20reviews/:name' => 'reviews#index'
 
   get 'api/v1/5reviews/:name' => 'reviews#show'
+
+  # root 'gamediscovery/' => 'twitch#streams'
+  get 'gamediscovery/v1/streams/:game' => 'twitch#streams'
+
+  get 'inquiry/v1/list/:name/:game' => 'inquiry#index'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
