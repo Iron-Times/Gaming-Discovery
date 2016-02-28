@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
-  get 'api/v1/20reviews' => 'reviews#index'
+  get 'reviews/index'
+  get 'reviews/show'
 
-  get 'api/v1/5reviews' => 'reviews#show'
+  get 'api/v1/20reviews/:name' => 'reviews#index'
+
+  get 'api/v1/5reviews/:name' => 'reviews#show'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

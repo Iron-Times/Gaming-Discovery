@@ -4,8 +4,11 @@ class ReviewsController < ApplicationController
   # end
 
   def index
-    @game = Review.new(name: params[:name], count: 20)
-    # render json: game
+    @game = Review.new(name: params[:name])
+    # render json: @game.body.each do |g|
+    #   json.title @game.title
+    #   json.rating @game.rating
+    # end
     # .review.body
   end
 
