@@ -1,6 +1,6 @@
 
 class Review
-  attr_reader :review
+  attr_reader :review, :name, :count
   def initialize(name: nil, count: nil)
     @name = name
     @count = count
