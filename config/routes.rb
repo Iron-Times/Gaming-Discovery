@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+# <<<<<<< HEAD
   get 'inquiry/index'
 
   get 'reviews/index'
@@ -11,6 +12,12 @@ Rails.application.routes.draw do
 
   # root 'gamediscovery/' => 'twitch#streams'
   get 'gamediscovery/v1/streams/:game' => 'twitch#streams'
+# =======
+
+  root 'twitch#index'
+  get '/gamediscovery/v1/streams/:game' => 'twitch#streams'
+
+# >>>>>>> a028c8da7a724c911f6a9cdd49223400883f27c6
 
   get 'inquiry/v1/list/:name/:game' => 'inquiry#index'
 

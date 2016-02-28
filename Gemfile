@@ -39,6 +39,9 @@ group :development, :test do
   gem 'byebug'
 
   gem 'unirest'
+
+  gem 'faker'
+
 end
 
 group :development do
