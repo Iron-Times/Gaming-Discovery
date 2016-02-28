@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-
-  get 'api/v1/streams' => 'twitch#streams'
+  root 'twitch#index'
+  get '/gamediscovery/v1/streams/:game' => 'twitch#streams'
 
 
 
