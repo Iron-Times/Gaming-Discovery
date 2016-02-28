@@ -14,7 +14,7 @@ class TwitchController < ApplicationController
           break if i == 10
           streamers[stream.viewer_count] = stream.url
           streamers
-        end
-    render json: streamers
+          end
+      render json: streamers
+    end
   end
-end
