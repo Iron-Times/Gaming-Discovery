@@ -1,7 +1,67 @@
-<h1> Game Discovery.com </h1>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <h1>
+      Game Discovery.com
+    </h1>
 
-<p> To see a game review enter your game title after this URL:</p>
-  <p> localhost:3000/api/v1/20reviews/ </p>
+  </head>
 
-  <p> To see a game stream enter your game title after this URL:</p>
+<body>
+
+<p> <h3>To see a game review enter your game title after this URL:</h3></p>
+  <p> localhost:3000/api/v1/20reviews/</p>
+
+  <p> <h3>To see a game stream enter your game title after this URL:</h3></p>
   <p> localhost:3000/gamediscovery/v1/streams/ </p>
+
+
+  <form id="contact-form" action="script.php" method="post">
+    <input type="hidden" name="redirect" value="localhost:3000/api/v1/20reviews/" />
+    <ul>
+        <li>
+            <label for="game">Game:</label>
+            <input type="text" name="game" id="game" value="" />
+        </li>
+        <li>
+            <input type="submit" value="submit" />
+            <input type="reset" value="reset" />
+        </li>
+    </ul>
+</form>
+</body>
+
+
+</html>
+
+
+<!-- <form>
+  First name:<br>
+  <input type="text" name="firstname">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname">
+</form>
+
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that the default width of a text input field is 20 characters.</p> -->
+
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<form action="action_page.php">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+
+</body> -->
+<!-- </html> -->
