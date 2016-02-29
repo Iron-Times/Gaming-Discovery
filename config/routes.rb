@@ -1,25 +1,26 @@
 Rails.application.routes.draw do
 
-# <<<<<<< HEAD
-  get 'inquiry/index'
-
-  get 'reviews/index'
-  get 'reviews/show'
-
-  get 'api/v1/20reviews/:name' => 'reviews#index'
-
-  get 'api/v1/5reviews/:name' => 'reviews#show'
-
-  # root 'gamediscovery/' => 'twitch#streams'
-  get 'gamediscovery/v1/streams/:game' => 'twitch#streams'
-# =======
-
   root 'twitch#index'
-  get '/gamediscovery/v1/streams/:game' => 'twitch#streams'
 
-# >>>>>>> a028c8da7a724c911f6a9cdd49223400883f27c6
+  get 'gamediscovery/v1/list/:name/:game' => 'inquiry#index'
 
-  get 'inquiry/v1/list/:name/:game' => 'inquiry#index'
+  # get 'inquiry/index'
+  #
+  # get 'reviews/index'
+  # get 'reviews/show'
+  #
+  # get 'api/v1/20reviews/:name' => 'reviews#index'
+  #
+  # get 'api/v1/5reviews/:name' => 'reviews#show'
+  #
+  # # root 'gamediscovery/' => 'twitch#streams'
+  # get 'gamediscovery/v1/streams/:game' => 'twitch#streams'
+
+
+
+  # get '/gamediscovery/v1/streams/:game' => 'twitch#streams'
+
+
 
 
   # The priority is based upon order of creation: first created -> highest priority.
