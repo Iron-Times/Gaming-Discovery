@@ -1,4 +1,4 @@
-# GameDiscovery API version 1.0.0 by Iron Times
+# GameDiscovery API version 0.9.0
 
 ## Description
 An API that allows you to search IGN's game database for reviews of games you are interested in and then see accomplished gamers streaming themselves playing that game through Twitch.
@@ -10,17 +10,23 @@ You must be logged into IGN to see the reviews this API returns.  You can log in
 
 ##### URL calls:
 To go to the root file enter:
- [http://localhost:3000](http://localhost:3000)
+[http://localhost:3000](http://localhost:3000)
 
  There you will find information instructing you to add the game's name twice to receive both reviews and streams of that game.
-  * The streams are filtered to only return the 10 streams with the highest viewer count at this given moment. Viewer count is displayed with URL following it.
+* `localhost:3000/gamediscovery/v1/list/destiny/game name/game name.json`
 
-  * The reviews are filtered to display title, rating, publisher, and platform.
+* The streams are filtered to return 10 streams with the highest viewer count at this given moment.
+
+* Viewer count is displayed with URL following it.
+
+* The reviews are filtered to display title, rating, publisher, and platform.
+
+* To view the streams you can click on the url in the results.
+
+* Streams are only displayed for exact name matches.
+
+* If less than 5 people are streaming the game, then the stream results will be empty.
 
 * To search about the game Destiny one would enter:
 
  [http://localhost:3000/gamediscovery/v1/list/destiny/destiny.json](http://localhost:3000/gamediscovery/v1/list/destiny/destiny.json)
-
- * To view the streams you can click on the url in the results.
-
- * If less than 5 people are streaming the game, then the stream results will be empty.
