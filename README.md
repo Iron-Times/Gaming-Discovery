@@ -1,4 +1,4 @@
-# GameDiscovery API version 1.0.0 by Iron Times 
+# GameDiscovery API version 1.0.0 by Iron Times
 
 ## Description
 An API that allows you to search IGN's game database for reviews of games you are interested in and then see accomplished gamers streaming themselves playing that game through Twitch.
@@ -19,6 +19,8 @@ To go to the root file enter:
 
 * To search about the game Destiny one would enter:
 
- [http://localhost:3000/gamediscovery/v1/list/worldofwarcraft/worldofwarcraft.json](http://localhost:3000/gamediscovery/v1/list/destiny/destiny.json)
+ [http://localhost:3000/gamediscovery/v1/list/destiny/destiny.json](http://localhost:3000/gamediscovery/v1/list/destiny/destiny.json)
 
  * To view the streams you can click on the url in the results.
+
+ * If less than 5 people are streaming the game, then the stream results will be empty.
