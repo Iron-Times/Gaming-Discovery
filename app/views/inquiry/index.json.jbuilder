@@ -4,6 +4,8 @@ json.games do
     json.rating o["score"]
     json.publisher o["publisher"]
     json.platform o["platforms"]
-    json.streams @streamers
+    if o["title"] == @boogie
+      json.streams @streamers
+    end
   end
 end

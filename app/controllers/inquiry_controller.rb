@@ -8,6 +8,7 @@ class InquiryController < ApplicationController
       array = []
       @streams.each do |s|
         next if s.viewer_count < 5
+          @boogie = s.game_name
           array << s
           array.sort_by {|s| s.viewer_count}
           array
